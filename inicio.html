@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
     <title>Home</title>
 </head>
-<body>
-    <h1>Home</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem qui libero aut dignissimos distinctio, ipsum voluptatem impedit aspernatur laudantium perspiciatis itaque non velit asperiores tenetur delectus, corporis dolorem quos.</p>
-    <a href="pagina1.html">Ir a Pagina 1</a>
-    <a href="pagina2.html">Ir a pagina 2</a>
+<body style="--bs-body-color: #333;">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="inicio.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="pagina1.html">Pagina1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Pagina2</a>
+              </li>            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem qui libero aut dignissimos distinctio, ipsum voluptatem impedit aspernatur laudantium perspiciatis itaque non velit asperiores tenetur delectus, corporis dolorem quos.</p>
+    </div>
 </body>
 </html>
